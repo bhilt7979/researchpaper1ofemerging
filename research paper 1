@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{emerging}
+\author{bhilt0007 }
+\date{August 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Reflection and learning Questions }
+
+\subsection{QUESTION 1: WHY DO WE SAY THAT AZURE IS A “CLOUD OFFERING”. DISCUSS THE FEATURES OF THIS:}
+\item Microsoft has released their new cloud offering, Azure.  Our company is a close Microsoft partner since we use a lot of their technologies in developing our company’s desktop software products, so as “cloud guy” I’ve gotten some in depth briefings and even went to PDC this year to learn more (some of my friends who have known me over the course of my 15 years of UNIX administration were horrified).  “Cloud computing” is an overloaded enough term that it’s not highly descriptive and it took a while to cut through the explanations to understand what Azure really is.  Let me break it down for you and explain the deal.
+\item Microsoft Azure is one of the most prominent cloud service providers, offering options for IaaS, PaaS and SaaS that cater to the rapidly changing business requirements of modern enterprises. This article will explore five key enterprise-grade Azure features: 
+\begin{itemize}
+    \item 
+Data resiliency
+\item Security\item BCDR integration \item Capacity planning \item Single-pane operability
+\end{itemize} 
+All of these key Azure features have major benefits for enterprises planning a shift to the cloud or a hybrid architecture.
+
+
+\subsection{QUESTION 2: WHAT IS DATA SCIENCE? WHAT ARE ITS TOOLS AND METHODOLOGIES.}
+\item Data science is a multidisciplinary blend of data inference, algorithmm development, and technology in order to solve analytically complex problems.
+
+At the core is data. Troves of raw information, streaming in and stored in enterprise data warehouses. Much to learn by mining it. Advanced capabilities we can build with it. Data science is ultimately about using this data in creative ways to generate business value.
+\item op Tools for Data Scientists: Analytics Tools, Data Visualization Tools, Database Tools, and More
+Algorithms.io. @algorithms_
+\item
+Apache Giraph\item
+Apache Hadoop \item
+Apache HBase \item
+Apache Hive \item 
+Apache Kafka \item 
+Apache Mahout \item 
+Apache Mesos.
+
+\subsection{QUESTION 3: HOW DOES THE CLASSICAL/RELATIONAL DATA MODEL COMPARE TO THE “BIG DATA” MODEL. WHAT NEW PROBLEMS DOES BIG DATA SOLVE? WHY ARE WE DOING BIG DATA NOW (NOT 20 YEARS AGO)?}
+
+\item A Data Base is a structured entity, targeted to store, retrieve and analyze a particular kind of data, well ordered into records (data sets) and fields (components of data sets). Such as address lists, customer lists.
+
+A data base can have (and in all practical non-trivial applications will have) multiple tables with different kind of records, interrelated by pre-defined keys.
+
+Big Data on the contrary, is not a structure, not even a clearly defined methodology. At its origin is the more or less trivial statement that when you have “enough” data, you can make accurate statements and predictions about persons, groups, events and all that. Big Data thus is a kind of data analytics.
+
+Towards this end a lot of tools have been developed to manage huge amounts of data. Best known is the Map-Reduce methodology, developed by Google. Other interesting concepts are eg. Hadoop.
+
+The main problem in Big Data analytics is to get something out of seemingly unstructured data of many different sources (structured data bases, text files, social media data, weather reports, traffic reports, …). That is what Map-Reduce and Hadoop are all about.
+
+Intermediate and final steps in the process then is classical data analytics, such as correlation, where the well-known tools like R or SPMS are being applied.
+
+\subsection{QUESTION 4: DISCUSS THE KINDS AND USES OF THE FOUR KINDS OF ANALYTICS:}
+\item 1. Descriptive Analytics
+As the name implies, descriptive analysis or statistics can summarize raw data and convert it into a form that can be easily understood by humans. They can describe in detail about an event that has occurred in the past. This type of analytics is helpful in deriving any pattern if any from past events or drawing interpretations from them so that better strategies for the future can be framed
+
+This is the most frequently used type of analytics across organizations. It’s crucial in revealing the key metrics and measures within any business.
+
+\item 2. Diagnostic Analytics
+The obvious successor to descriptive analytics is diagnostic analytics. Diagnostic analytical tools aid an analyst to dig deeper into an issue at hand so that they can arrive at the source of a problem.
+
+In a structured business environment, tools for both descriptive and diagnostic analytics go hand-in-hand!
+
+\item 3. Predictive Analytics
+Any business that is pursuing success should have foresight. Predictive analytics helps businesses to forecast trends based on the current events. Whether it’s predicting the probability of an event happening in future or estimating the accurate time it will happen can all be determined with the help of predictive analytical models.
+
+Usually, many different but co-dependent variables are analyzed to predict a trend in this type of analysis. For example, in the healthcare domain, prospective health risks can be predicted based on an individual’s habits/diet/genetic composition. Therefore, these models are most important across various fields.
+
+\item 4. Prescriptive Analytics
+This type of analytics explains the step-by-step process in a situation. For instance, a prescriptive analysis is what comes into play when your Uber driver gets the easier route from Gmaps. The best route was chosen by considering the distance of every available route from your pick-up route to the destination and the traffic constraints on each road.
+
+A data analyst would need to apply one or more of the above analytics processes as a part of his job. After reading the above post, are you left wondering how to become a data analyst, then this blog post is for you! If you are wondering about the scope of data analytics in India, this blog would be an insightful read too.
+
+If you are keen on pursuing a career in the field of data analytics, you can apply for these courses offered by Acadgild. On completion of these courses, you would be eligible for some of the most challenging roles in the domain
+
+\end{document}
